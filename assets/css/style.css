@@ -1,0 +1,107 @@
+html {
+	/*font-family: "Geneva";*/
+}
+
+
+
+header h1 {
+	text-align: center;
+	color: white;
+	margin-top: 0;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	background-color: #4aaaa5;
+}
+
+
+body {
+	text-align: center;
+	background-color: #e6e6fa;
+	/*background-image: url("../images/background1.jpg");*/
+}
+
+
+
+
+#wordContainer {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wordSlots {
+	border-style: outset;
+	border-radius: 25px;
+	border-color: #6495ed;
+	padding: 5px;
+	
+}
+
+
+
+#guessContainer {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: white;*/
+
+	border-style: solid;
+	border-radius: 25px;
+	border-color: #008B8B;
+	padding: 5px;
+}
+
+
+
+#statContainer {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: white;*/
+
+	border-style: solid;
+	border-radius: 35px;
+	border-color: #008B8B;
+	padding: 5px;
+
+}
+
+
+#buttonContainer {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#button1 {
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	border-style: double;
+	border-width: 2px;
+	color: #191970;
+	border-radius: 10px;
+	border-color: #4aaaa5;
+	background-color: #4aaaa5;
+
+	transition-duration: 0.4s;
+}
+
+#button1:hover {
+	background-color: #20B2AA;
+	border-color: green;
+	color: black;
+}
+
+#button1:focus {
+	outline-style: none;
+	
+}
+
+#button1:active {
+	transition-duration: 0.0s;
+	background-color: #17827d;
+}
